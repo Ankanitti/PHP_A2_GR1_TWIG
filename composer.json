@@ -1,0 +1,15 @@
+{
+    "name": "ankanitti/php_a2_gr1_twig",
+    "description": "I'm screaming and crying inside...",
+    "require": {
+        "twig/twig": "~1.16"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume BEUZELIN",
+            "email": "william12.5@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
