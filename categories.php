@@ -10,4 +10,6 @@ $categories = getCategories($link);
 
 require __DIR__.'/_footer.php';
 
-include __DIR__.'/template/categories.php';
+echo $twig->render('categories.html.twig', [
+    'category' => $categories,
+]);
